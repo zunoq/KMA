@@ -1,0 +1,118 @@
+// app global css in SCSS form
+// app global css in SCSS form
+::-webkit-scrollbar {
+    display: none;
+}
+@font-face {
+    font-family: "IBM";
+    src: url(../assets/font/IBM/IBMPlexSans-Regular.ttf);
+}
+@font-face {
+    font-family: "IBM Bold";
+    src: url(../assets/font/IBM/IBMPlexSans-Bold.ttf);
+}
+@font-face {
+    font-family: "IBM Italic";
+    src: url(../assets/font/IBM/IBMPlexSans-Italic.ttf);
+}
+@font-face {
+    font-family: "IBM Bold-Italic";
+    src: url(../assets/font/IBM/IBMPlexSans-BoldItalic.ttf);
+}
+.text-regular {
+    font-family: "IBM";
+}
+.text-bold {
+    font-family: "IBM Bold";
+}
+.text-italic {
+    font-family: "IBM Italic";
+}
+.text-bold-italic {
+    font-family: "IBM Bold-Italic";
+}
+// COLOR PALETTE
+.text-tetiary {
+    color: $tetiary !important;
+}
+.bg-tetiary {
+    background: $tetiary !important;
+}
+.text-floor {
+    color: $floor !important;
+}
+.bg-floor {
+    background: $floor !important;
+}
+.text-page {
+    color: $page !important;
+}
+.bg-page {
+    background: $page !important;
+}
+.text-layout {
+    color: $layout !important;
+}
+.bg-layout {
+    background: $layout !important;
+}
+.text-seperator-line {
+    color: $seperator-line !important;
+}
+.bg-seperator-line {
+    background: $seperator-line !important;
+}
+.text-opacity-black {
+    color: $opacity-black !important;
+}
+.bg-opacity-black {
+    background: $opacity-black !important;
+}
+.text-gradient {
+    background: $gradient;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-critical {
+    color: $critical !important;
+}
+.bg-critical {
+    background: $critical !important;
+}
+.text-high {
+    color: $high !important;
+}
+.bg-high {
+    background: $high !important;
+}
+.text-medium {
+    color: $medium !important;
+}
+.bg-medium {
+    background: $medium !important;
+}
+.text-low {
+    color: $low !important;
+}
+.bg-low {
+    background: $low !important;
+}
+.text-finished {
+    color: $finished !important;
+}
+.bg-finished {
+    background: $finished !important;
+}
+.text-scanning {
+    color: $scanning !important;
+}
+.bg-scanning {
+    background: $scanning !important;
+}
+.text-failed {
+    color: $failed !important;
+}
+.bg-failed {
+    background: $failed !important;
+}
