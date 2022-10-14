@@ -2,6 +2,8 @@
 
 ## Requirement
     Python version 3.10 or higher
+## Setup environment
+    sudo apt-get install python3-dev default-libmysqlclient-dev build-essential
 
 ## Set up to run project
     1. pip install -r requirements.txt
