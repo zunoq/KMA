@@ -1,6 +1,9 @@
 # AT150536 (frontend)
 
 A Quasar Project
+## Install environtment
+Required node.js latest version
+
 
 ## Install the dependencies
 ```bash
